@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+//abstract files
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+//base files
+@import "base/base"; 
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities" ;
+
+//components files
+@import "components/buttons";
+
+//layout files
+@import "layout/header";
+@import "layout/grid";
+
+//pages files
+@import "pages/home";
