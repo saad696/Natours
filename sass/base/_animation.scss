@@ -44,3 +44,14 @@
         transform: translate(0);
     }
 }
+
+// icon animation
+@keyframes globeRotate {
+           
+    from{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

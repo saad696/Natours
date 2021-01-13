@@ -1,0 +1,40 @@
+.feature-box {
+  background-color: rgba($color-white, 0.5);
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  transition: transform .4s ease;
+  
+  &__icon1 {
+    animation: globeRotate 4s infinite linear;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    @include icon;
+
+  }
+  &__icon2 {  
+    background-image: linear-gradient(to right, #ff8686, #fd5b5b);
+    @include icon;
+
+  }
+  &__icon3 {
+    background-image: linear-gradient(to right, #e2bb88, #daa35c);
+    @include icon;
+
+  }
+  &__icon4 {
+    background-image: linear-gradient(to right,  #f80000, #b90000);
+    @include icon;
+
+  }
+
+  &:hover{
+      transform: translateY(-1.5rem) scale(1.1);
+  }
+
+//   &__text {
+//   }
+
+
+}
